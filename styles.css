@@ -26,7 +26,8 @@ body {
   
   .collapsible-section {
     margin: 20px;
-    background-color: white;
+    background-color:git status
+    white;
     border-radius: 8px;
   }
   
@@ -35,7 +36,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 12px 16px;
-    border-bottom: 4px solid #ffb400;
+    border-bottom: 4px solid #2d1add;
     cursor: pointer;
   }
   
