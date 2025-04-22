@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .collapsible-section {
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .collapsible-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 4px solid #ffb400;
+    cursor: pointer;
+  }
+  
+  .collapsible-header h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 26px;
+    font-weight: bold;
+  }
+  
+  .collapsible-content {
+    display: block;
+    padding: 10px 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
