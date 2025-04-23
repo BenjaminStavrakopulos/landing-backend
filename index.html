@@ -18,6 +18,7 @@
 
 
 
+
   <section class="contact-form">
     <h2>Contáctanos</h2>
     <form id="correo-form">
@@ -29,16 +30,30 @@
     <p id="respuesta-servidor"></p>
   </section>
 
+  <div class="collapsible-section">
+    <div class="collapsible-header" onclick="toggleSection('certificados')">
+      <h3>Certificados</h3>
+      <span class="icon" id="icon-certificados">+</span>
+    </div>
+    <div id="certificados" class="collapsible-content" style="display: none;">
+      <div class="certificados-galeria">
+        <img src="./imag/Imagen1.png" alt="Certificado SEC Clase A">
+        <img src="./imag/Imagen2.png" alt="Certificado TE1">
+        <img src="./imag/Imagen3.png" alt="Certificado TE2">
+      </div>
+    </div>
+  </div>
+  
 
     <!-- QUIÉNES SOMOS -->
     <div class="collapsible-section">
-        <div class="collapsible-header" onclick="toggleSection('quienes-somos')">
-          <h3>Quiénes somos</h3>
-          <span class="icon" id="icon-quienes-somos">+</span>
-        </div>
-        <div id="quienes-somos" class="collapsible-content" style="display: none;">
-          <p>Somos técnicos eléctricos certificados con más de 10 años de experiencia en instalaciones, reparaciones y mantenimientos eléctricos.</p>
-        </div>
+      <div class="collapsible-header" onclick="toggleSection('quienes-somos')">
+        <h3>Quiénes somos</h3>
+        <span class="icon" id="icon-quienes-somos">+</span>
+      </div>
+      <div id="quienes-somos" class="collapsible-content" style="display: none;">
+        <p>Ingeniero Eléctrico y Civil Industrial con 20 años de experiencia en el desarrollo de proyectos eléctricos en las áreas industrial, comercial y residencial. Instalador Eléctrico Autorizado Clase “A” (Reg. SEC N°13.622.295-3).</p>
+      </div>
       </div>
     
       <!-- CONTACTO -->
@@ -48,9 +63,10 @@
           <span class="icon" id="icon-contacto-info">+</span>
         </div>
         <div id="contacto-info" class="collapsible-content" style="display: none;">
-          <p>Teléfono: +56 9 1234 5678<br />
-             Correo: contacto@electricista.cl<br />
-             Dirección: Santiago, Chile</p>
+          <p>Teléfono: +56 9 140 7876<br />
+             Correo: ruben.escobar.ie@gmail.com<br />
+             Dirección: Viña del Mar - Valparaíso<br />
+             LinkedIn: <a href="https://www.linkedin.com/in/rubén-escobar-manríquez" target="_blank">Perfil Profesional</a></p>
         </div>
       </div>
   <script src="script.js"></script>
