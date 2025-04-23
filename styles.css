@@ -90,4 +90,82 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
+  .divider {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .linea-con-texto {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .linea-con-texto::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 8px;
+    width: 100%;
+    background-color: #004080;
+    z-index: 1;
+  }
+  
+  .linea-con-texto span {
+    position: relative;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 0 20px;
+    font-size: 24px;
+    color: #004080;
+    font-weight: bold;
+    z-index: 2;
+  }
+  .acerca-de-mi {
+    background-image: url('./imag/fondo.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 0 20px 40px;
+    color: #000;
+    position: relative;
+  }
+  
+  .linea-con-texto {
+    position: relative;
+    height: 20px; /* altura total más alta */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #004080;
+  }
+  
+  .linea-con-texto::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 8px;
+    width: 100%;
+    background-color: #004080;
+    z-index: 1;
+  }
+  
+  .linea-con-texto span {
+    position: relative;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0 20px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #004080;
+    z-index: 2;
+  }
+  
+ 
   
